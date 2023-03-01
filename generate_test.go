@@ -9,3 +9,8 @@ func TestGenerateHello(t *testing.T) {
 		t.Errorf("got %v, want %v", got, want)
 	}
 }
+
+func TestGenerateFood(t *testing.T){
+	got := GenerateFood([]string{"beef"})
+	want := "beef+rice"
+}
