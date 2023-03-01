@@ -14,6 +14,6 @@ func TestGenerateFood(t *testing.T) {
 	got := GenerateFood([]string{"beef"})
 	want := "beef+rice"
 	if got != want {
-		t.Errorf("whoops!")
+		t.Errorf("whoops!!")
 	}
 }
